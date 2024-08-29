@@ -1,4 +1,4 @@
-read me folder
+I am creating a website that will allow users to rate animes and store it into their bookmarks.
 
 Features
 - login
