@@ -1,3 +1,9 @@
-print('Zombies')
-print('Hello World from Josh')
-print('mo is gay')
+name = input('enter your name: ')
+
+
+if name == 'noah':
+    print('hello')
+elif name == 'mo':
+    
+
+
