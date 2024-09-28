@@ -27,7 +27,10 @@
      </div>
      <br />
      <button type="submit" class='btn btn-primary'>Login</button>
-     
 </form>
+
+{% if current_user.is_authenticated %}
+    <a href="{{ url_for('auth.anime_search') }}">Go to Anime Search</a>
+{% endif %}
 
 {% endblock %}
